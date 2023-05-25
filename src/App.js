@@ -15,11 +15,11 @@ const App = () => {
   return (
     <BrowserRouter>
       <main className='sm:px-8 py-4 w-full bg-[#f9fafe] min-h[calc(100vh -73px)]'>
-        <header className='w-full flex justify-between items-center bg-white sm:px-8 py-4 border-b border-b[#e6ebf4]'>
+        {/* <header className='w-full flex justify-between items-center bg-white sm:px-8 py-4 border-b border-b[#e6ebf4]'>
           <Link to='/' className='text-2xl font-bold text-gray-800'>
             <img src={logo} alt='logo' className='w-28' object-contain />
           </Link>
-        </header>
+        </header> */}
         <Routes>
           <Route path='/' element={<Signin />} />
           <Route path='/signup' element={<Signup />} />

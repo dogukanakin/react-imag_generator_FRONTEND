@@ -14,7 +14,7 @@ const RenderCards = ({ data, title }) => {
 
 const Home = () => {
   const [loading, setLoading] = useState(false)
-  const [allPosts, setAllPosts] = useState(null)
+  const [allPosts, setAllPosts] = useState([])
 
   const [searchText, setSearchText] = useState('')
   const [searchTimeout, setSearchTimeout] = useState(null)
